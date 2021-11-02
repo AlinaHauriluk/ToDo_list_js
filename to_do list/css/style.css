@@ -1,0 +1,223 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: wheat;
+}
+
+.todo_list {
+    width: 50%;
+    margin: 40px auto;
+    padding: 80px 0;
+    border: 2px solid rgba(235, 129, 200, 0.2);
+    border-radius: 20px;
+    background-image: url('../images/phone.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 0 20px gray;
+    background-attachment: fixed;
+    background-position: 50% 60%;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
+.todo_list .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.todo_list button {
+    margin-left: 25px;
+    padding: 10px 20px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    border: 2px solid rgb(247, 114, 203);
+    color: rgba(40, 84, 228, 0.801);
+    box-shadow: 0 0 10px gray;
+    background-color: transparent;
+    font-weight: 700;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all 0.2s linear;
+    outline: none;
+}
+
+.todo_list button:hover {
+    transform: scale(1.1);
+}
+
+.todo_list button:active {
+    transform: scale(0.9);
+}
+
+.todo_list h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 42px;
+    letter-spacing: 2.4px;
+    font-weight: bold;
+    color:rgba(238, 22, 76, 0.712);
+    text-align: center;
+    margin-bottom: 30px;
+    text-shadow: 8px 3px 2px rgba(40, 84, 228, 0.433);
+}
+
+.todo_list .task {
+    text-align: center;
+    width: 60%;
+    border: 2px solid rgb(247, 114, 203);
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing: 2.4px;
+    color: rgba(40, 84, 228, 0.801);
+    text-shadow: 0 0 10px gray;
+    padding: 15px 0;
+    margin-bottom: 30px;
+    outline: none;
+    background-color: rgba(235, 129, 200, 0.2);
+}
+
+.todo_list .task::placeholder {
+    color: rgba(40, 84, 228, 0.801);
+    text-shadow: 8px 3px 2px rgba(235, 74, 187, 0.4);
+}
+
+.list {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    list-style: none;
+}
+
+.list li {
+    display: flex;
+    justify-content: center; 
+}
+
+.list li p {
+    margin: 0 10px 25px 10px;
+    border: 2px solid rgba(235, 129, 200, 0.445);
+    border-radius: 20px;
+    width: 60%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    letter-spacing: 2.4px;
+    color: rgba(238, 22, 76, 0.712);
+    text-shadow: 0 0 10px gray;
+    display: inline-block;
+    box-shadow: 0 0 20px gray;
+    background-color: rgba(235, 129, 200, 0.2);
+    outline: none;
+}
+
+.do_list .p_done {
+    width: 48%;
+}
+
+.list li .edit {
+    display: inline-block;
+    background-image: url('../images/pencil.png');
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: all 0.2s linear;
+}
+
+.list li .delete {
+    display: inline-block;
+    background-image: url('../images/delete.png');
+    background-size: 20px, 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+    cursor: pointer;
+    transition: all 0.2s linear;
+}
+
+.list li .delete:hover,
+.list li .edit:hover {
+    transform: scale(1.2);
+}
+
+.list li .delete:active,
+.list li .edit:active {
+    transform: scale(0.9);
+}
+
+.list li .check {
+    display: inline-block;
+    margin-left: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid rgba(247, 103, 146, 0.486);
+    margin-right: 20px;
+    margin-bottom: 25px;
+    box-shadow: 0 0 20px gray;
+    background-color: rgba(235, 129, 200, 0.2); 
+    color: rgba(40, 84, 228, 0.801);
+    background-color: transparent;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.do_list .list li .delete {
+    margin-left: 10px;
+}
+
+.do_list {
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.title {
+    font-size: 26px;
+    font-weight: bold;
+    letter-spacing: 2.4px;
+    color: rgba(40, 84, 228, 0.801);
+    text-shadow: 0 0 10px gray;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.title.none {
+    display: none;
+}
+
+.p_done {
+    text-decoration: line-through;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

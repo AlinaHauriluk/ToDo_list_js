@@ -1,0 +1,128 @@
+@media(min-width: 2560px) {
+    .list li p,
+    .p_done {
+        width: 45%;
+    }
+
+    .do_list .p_done {
+        width: 35%; 
+    }
+}
+
+@media(max-width: 1024px) {
+    .todo_list {
+        width: 65%;
+    }
+}
+
+@media(max-width: 768px) {
+    .todo_list {
+        width: 70%;
+    }
+
+    .todo_list button {
+        margin-left: 15px;
+        padding: 5px 10px;
+    }
+
+    .todo_list .task {
+        width: 70%;
+        padding: 5px 0;
+    }
+
+    .list li p,
+    .p_done {
+        margin: 0 0 25px 0;
+        width: 55%;
+        font-size: 22px; 
+    }
+
+    .do_list .p_done {
+        width: 45%;
+        
+    }
+}
+
+@media(max-width: 426px) {
+    .todo_list {
+        width: 90%;
+    }
+
+    .todo_list button {
+        margin-left: 10px;
+        padding: 5px 10px;
+        font-size: 16px;
+    }
+
+    .todo_list .task {
+        width: 70%;
+        padding: 5px 0;
+        font-size: 20px;
+    }
+
+    .list li p,
+    .p_done {
+        margin: 0 0 25px 0;
+        width: 55%;
+    }
+
+    .do_list .p_done {
+        width: 60%; 
+    }
+
+    .list li .edit {
+        margin-left: 2px;
+    }
+    
+
+    .list li .delete {
+        width: 20px;
+        height: 20px;
+        margin-left: 10px;
+    }
+
+    .list li .check {
+        margin-right: 10px;
+        font-size: 16px;
+        margin-left: 0;
+    }
+
+    .title {
+        font-size: 20px;
+    } 
+}
+
+@media(max-width: 376px) {
+    .list li .edit {
+        width: 15px;
+        height: 15px;
+    }
+
+    .todo_list .task {
+        width: 65%;
+    }
+
+    .list li p,
+    .p_done {
+        font-size: 20px; 
+    }
+
+    .list li .check {
+        font-size: 14px;
+    }
+}
+
+@media(max-width: 321px) {
+    .list li .check {
+        margin-right: 5px;
+    }
+
+    .list li p,
+    .p_done {
+        font-size: 16px; 
+    }
+
+    .todo_list .task {
+        font-size: 18px;
+    }
+}
